@@ -10,7 +10,7 @@ from pydantic import BaseModel
 # Creating the app.
 app = FastAPI()
 
-# Creating class
+# Creating an class that hold's attributes of an item.
 class Item(BaseModel):
     name: str
     price: float
